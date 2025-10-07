@@ -10,7 +10,7 @@ namespace CSharpEgitimKampi301.DataAccessLayer.Abstract
     {
         void Insert(T entity); //ekleme
         void Update(T entity); //güncelleme
-        void Delete(int id); //silme
+        void Delete(T entity); //silme
         List<T> GetAll(); //listeleme
         T GetById(int id); //id'ye göre getirme
     }
